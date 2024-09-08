@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>My first website!</title>
+	</head>
+
+	<body>
+		<!-- The top of my webpage -->
+		<header>
+			<h1>Rebecca Gentzel, PhD</h1>
+		</header>
+		<section>
+			<h1>About Me</h1>
+			<p>Hi, nice to meet you. <a href="#csc105">I teach CSC 105!</a> <a href="OtherPages\NewPage.html">Click here for something cool</a></p>
+		</section>
+		<p>I have my PhD in Computer Science. <span>I like to play board games.</span> Here are some board games I like to play!</p>
+		
+		<ul>
+			<li><a href="https://boardgamegeek.com/boardgame/174430/gloomhaven">Gloomhaven</a></li>
+			<li>Codenames</li>
+			<li>Pictomania</li>
+		</ul>
+		
+		<img src="Images/VideoGames.jpg" width="250" height="150" alt="Person playing Minecraft">
+		
+		<p>Here are some video games I like to play:</p>
+		
+		<ul>
+			<li>Honkai: Star Rail</li>
+			<li>Teamfight Tactics</li>
+		</ul>
+		
+		<h2>Classes I teach</h2>
+		<p>Here are some classes I teach.</p>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>Class #</th>
+					<th>Class name</th>
+					<th>In person or online</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>CSC 101</td>
+					<td>Programming for Everyone I</td>
+					<td>In person</td>
+				</tr>
+				<tr>
+					<td>CSC 105</td>
+					<td>Web Development</td>
+					<td>Online</td>
+				</tr>
+				<tr>
+					<td>CSC 203</td>
+					<td>Application Development I</td>
+					<td>In person</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<form>
+			<label for="fname">First name: </label>
+			<input id="fname" name="fname" type="text">
+			<br>
+			<label for="lname">Last name: </label>
+			<input id="lname" name="lname" type="text">
+			<br>
+			<p>Select your class</p>
+			<label for="csc101">CSC 101</label>
+			<input id="csc101" name="class" value="csc101" type="radio">
+			<br>
+			<label for="csc105">CSC 105</label>
+			<input id="csc105" name="class" value="csc105" type="radio">
+			<br>
+			<label for="csc203">CSC 203</label>
+			<input id="csc203" name="class" value="csc203" type="radio">
+			<br>
+			<p>Select your gender</p>
+			<label for="male">Male</label>
+			<input id="male" name="gender" value="male" type="radio">
+			<br>
+			<label for="female">Female</label>
+			<input id="female" name="gender" value="female" type="radio">
+			<br>
+			<label for="other">Other</label>
+			<input id="other" name="gender" value="other" type="radio">
+			<br>
+			<label for="submit"></label>
+			<input id="submit" type="submit" value="Submit">
+		</form>
+		
+		<h3 id="csc105">CSC 105</h3>
+		
+		<h3>CSC 203</h3>
+	
+		<p>Hello, class of CSC 105!</p>
+	</body>
+
+</html>
