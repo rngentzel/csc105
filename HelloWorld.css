@@ -1,0 +1,148 @@
+body {
+	background-color: #699dc7;
+}
+
+header {
+	text-align: center;
+	background-color: #e3a56f;
+}
+
+p {
+	color: green;
+	font-family: times new roman, arial, sans serif;
+}
+
+h1 {
+	color: red;
+	font-size: 50pt;
+}
+
+.green {
+	color: green;
+}
+
+.notbold {
+	color: #d67af0;
+	font-weight: normal;
+}
+
+.italics {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#csc105 {
+	color: pink;
+}
+
+#classes {
+	color: white;
+}
+
+.nomargin {
+	margin: 0px;
+}
+
+#headertitle {
+	padding-bottom: 0.5rem;
+}
+
+header {
+	border: 5px;
+	border-color: black;
+	border-style: inset;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: orange;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#class-section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.navlink {
+	font-size: 18pt;
+	background-color: #cad0db;
+	padding: 0.5em;
+	border: 3px;
+	border-color: black;
+	border-style: inset;
+}
+
+.navlink:hover {
+	text-decoration: none;
+	background-color: #adb6c4;
+}
+
+.navlink:link {
+	color: black;
+}
+
+.navlink:active {
+	font-weight: none;
+	background-color: #929ba8;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (min-width: 1200px) {
+	nav {
+		background-color: #cad0db;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 1199px) {
+	#form-info {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	#submit-button {
+		padding: 1em;
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	* {
+		text-align: center;
+	}
+	
+	nav {
+		flex-direction: column;
+	}
+	
+	.navlink {
+		text-align: center;
+		font-size: 15pt;
+	}
+	
+	h1 {
+		font-size: 30pt;
+	}
+	h2 {
+		font-size: 15pt;
+	}
+	
+	iframe {
+		width: 380px;
+		height: 200px;
+	}
+}
